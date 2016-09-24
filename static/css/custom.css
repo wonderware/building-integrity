@@ -1,0 +1,131 @@
+/** MY STUFF */
+
+body {
+    background: url('../img/landing/bi-hero-fake.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-responsive {
+    display:inline-block;
+}
+
+.jumbotron {
+    background:none;
+    height:100%;
+    margin-bottom:0;
+}
+
+    .jumbotron .words {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 10px 0 0;
+        width:440px;
+        text-align:right;
+    }
+
+    .jumbotron .words .top {
+        font-size: 5em;
+        color: white;
+        width:inherit;
+        text-align: inherit;
+        line-height: 80%;
+    }
+
+    .jumbotron .words .bottom {
+        font-size: 10em;
+        color: gold;
+        text-align: inherit;
+        width:inherit;
+        line-height: 80%;
+    }
+
+    .jumbotron .words .description {
+        background: #444;
+        padding:20px;
+        color: white;
+        text-align: inherit;
+        width:inherit;
+    }
+
+.divider {
+    background: #444;
+    content:"";
+    height:60px;
+    width:100%;
+}
+
+.landing-page .navbar-default .navbar-brand:hover,.landing-page .navbar-default .navbar-brand:focus{
+    background: #000000;
+}
+
+.landing-page .navbar-default .navbar-brand{
+    color:#fff;
+    height:auto;
+    display:block;
+    font-size:14px;
+    background:#000000;
+    padding:8px;
+    border-radius:0 0 5px 5px;
+    font-weight:700;
+    transition:all .3s ease-in-out 0s
+}
+
+.landing-page .navbar-default .navbar-brand img {
+    height:50px;
+}
+
+.landing-page .navbar.navbar-scroll .navbar-brand {
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    height: auto;
+}
+
+section.separated:after{
+    content:"";
+    height:60px;
+    width:100%;
+    background: #444;
+    display:block;
+    margin-top:30px;
+}
+
+.landing-page section.timeline {
+     padding-bottom: 0;
+}
+.landing-page .gray-section {
+    margin-top: 0;
+}
+
+.landing-page section p.quote, p.quote {
+    color: #aeaeae;
+    font-size: 1.5em;
+}
+
+@media (min-width: 992px){
+
+    .jumbotron .words {
+        width:820px;
+    }
+
+        .jumbotron .words .top {
+            font-size: 10em;
+        }
+
+        .jumbotron .words .bottom {
+            font-size: 15em;
+        }
+
+}
+
+@media (max-width: 768px){
+
+    .jumbotron .words {
+        width:100%;
+        text-align:center;
+    }
+
+}
