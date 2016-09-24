@@ -3,10 +3,10 @@
   <channel>
     <title>Jalpc</title>
     <description>Jack's blog,use Jekyll and github pages.</description>
-    <link>http://wonderware.github.iobuilding-integrity/_site/</link>
-    <atom:link href="http://wonderware.github.iobuilding-integrity/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Sep 2016 11:35:32 -0400</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 11:35:32 -0400</lastBuildDate>
+    <link>http://wonderware.github.io//</link>
+    <atom:link href="http://wonderware.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Sep 2016 11:36:38 -0400</pubDate>
+    <lastBuildDate>Sat, 24 Sep 2016 11:36:38 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -24,8 +24,8 @@
 &lt;p&gt;从第一份运维工作开始，就开始写笔记，有用过印象笔记，有道云笔记，gist，后来也开始写博客，那时候是在CSDN上面注册了一个账号，写了有几个月见见的也荒废了；再后来，想自己搞个云主机，在&lt;a href=&quot;http://aliyun.com&quot;&gt;阿里云&lt;/a&gt;上租了一台主机，一个月￥60，先是用wordpress，感觉可定制功能不强，因为是PHP写的，个人主要学习Python，所以感觉自己用Django写了一个博客，在15年双十一，云主机降价，花了一半的价钱（￥200）在美团云上买了一台1C、1G、1MB带宽的主机，至此也了解了阿里云和美团云的一些不同之处，美团云主打的是纯净的系统，而阿里云应用市场比较丰富。现在准备把自己的博客迁移到&lt;a href=&quot;http://github.com&quot;&gt;github&lt;/a&gt;上，在学习了markdown入门和jekyll基础后，目前博客已经初步成立，同时完善了我的一些文章，希望今后能够勤写文章。&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Jan 2015 00:00:00 -0500</pubDate>
-        <link>http://wonderware.github.iobuilding-integrity/_site/life/2015/01/08/first-blog.html</link>
-        <guid isPermaLink="true">http://wonderware.github.iobuilding-integrity/_site/life/2015/01/08/first-blog.html</guid>
+        <link>http://wonderware.github.io//life/2015/01/08/first-blog.html</link>
+        <guid isPermaLink="true">http://wonderware.github.io//life/2015/01/08/first-blog.html</guid>
         
         <category>blog</category>
         
