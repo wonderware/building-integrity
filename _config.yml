@@ -4,10 +4,10 @@
 title: "Building Integrity"
 description: "Jack's blog,use Jekyll and github pages."
 keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
-#baseurl: "http://wonderware.github.io/building-integrity/_site/"
-#url: "http://wonderware.github.io"
-url: "http://127.0.0.1:4000"
-baseurl: "/"
+baseurl: "http://wonderware.github.io/building-integrity/_site/"
+url: "http://wonderware.github.io"
+#url: "http://127.0.0.1:4000"
+#baseurl: "/"
 
 # landing page
 landing:
