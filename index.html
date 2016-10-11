@@ -2,158 +2,21 @@
 layout: blog
 title: index
 permalink: /
+cloud: http://res.cloudinary.com/dkgdmm4z9/image/upload/
+navScroll: true
 ---
-<div class="navbar-wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#page-top" id="i18_title"><img src="static/img/landing/bi-logo.jpg" /></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                        <li><a class="page-scroll" href="#our_mission"><span data-i18n="nav.our_mission">Our Mission</span></a></li>
-                        <li><a class="page-scroll" href="#sun_structures"><span data-i18n="nav.sun_structures">Sun Structures&#8482;</span></a></li>
-                        <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">Projects</span></a></li>
-                        <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">Contact</span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-</div>
 
-<div class="jumbotron hero">
-
-    <div class="words">
-        <div class="top">YOUR HOME</div>
-        <div class="bottom">BETTER</div>
-        <div class="description">
-            <div class="lead">
-                From concept to completion, our team has the skill and experience to turn your dream into a reality. You're in good hands with Case.
-            </div>
-            <div>
-                Are you an architect? <a href="/commercial">Check out our commercial work here.</a>
-            </div>
-        </div>
-    </div>
-
-</div>
+{% include sections/hero.html %}
 
 <div class="divider" ></div>
 
-<section id="our_mission" class="features gray-section separated">
-    <div class="container" id="i18_about_me">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="our_mission.our_mission">Our Mission</span></h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 text-center col-lg-2 col-lg-offset-2">
-                <img class="img-circle img-responsive" src="static/img/landing/wozniaks.jpg" />
-            </div>
-            <div class="col-lg-6 text-center m-t-lg m-b-lg">
-                <div>
-                    <p class="quote">We strive to improve our customers' lifestyles by helping them express and release the potential for greater comfort, beauty, livability and community in their home or business.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{% include sections/our-mission.html %}
 
-<section id="sun_structures" class="timeline features gray-section separated">
-    <div class="container" id="i18_career">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span>Sun Structures&#8482;</span></h1>
-            </div>
-        </div>
-        <div class="row features-block">
+{% include sections/awards.html %}
 
-            <div class="col-lg-6 col-lg-offset-2">
-                <p class="quote">
-                    For two decades, we have constructed quality rooms and additions that invite you to enjoy your outdoor surroundings beyond the summer months.
-                </p>
-                <p class="quote">
-                    Whether it's a greenhouse, English conservatory, or conventional four-season room, we can help you find the solution that fits your needs.
-                </p>
-                <p class="quote">
-                    <a href="/portfolio">Browse our portfolio</a> for ideas that fit your vision and your home.
-                </p>
-            </div>
-            <div class="col-xs-12 col-lg-2">
-                <img class="img-responsive" src="static/img/HaynesExterior1.jpg">
-            </div>
+{% include sections/what-we-do.html %}
 
-        </div>
-    </div>
-</section>
-
-<section id="project" class="project gray-section features separated">
-    <div class="container" id="i18_projects">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Projects</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="{{ site.project.saplatform.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><a href="{{ site.project.saplatform.url | prepend: 'https://github.com' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.saplatform.name }}</a></h4>
-                    <p><span data-i18n="projects.saplatform">Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.</span></p>
-                </div>
-            </div>
-
-            <div class="col-sm-6 wow fadeInRight">
-                <div class="team-member">
-                    <img src="{{ site.project.jalpc.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><a href="{{ site.project.jalpc.url | prepend: 'https://github.com' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.jalpc.name }}</a></h4>
-                    <p><span data-i18n="projects.jalpc">Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.</span></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6 wow fadeInLeft">
-                <div class="team-member">
-                    <img src="{{ site.project.angularjs.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><a href="{{ site.project.angularjs.url | prepend: 'https://github.com' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.angularjs.name }}</a></h4>
-                    <p><span data-i18n="projects.angularjs">Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.</span></p>
-                </div>
-            </div>
-
-            <div class="col-sm-6 wow fadeInRight">
-                <div class="team-member">
-                    <img src="{{ site.project.Rsser.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><a href="{{ site.project.Rsser.url | prepend: 'https://github.com' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.Rsser.name }}</a></h4>
-                    <p><span data-i18n="projects.rsser">Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.</span></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-</section>
-
-<section id="contact" class="navy-section testimonials" style="margin-top: 0">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
-                <br><br><br>
-                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/">Contact</a>
-                <br><br><br>
-            </div>
-        </div>
-    </div>
-</section>
+{% include sections/contact.html %}
 
 <div class="divider" ></div>
 

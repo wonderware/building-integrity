@@ -1,31 +1,29 @@
 /** MY STUFF */
 
-body {
-    background: url('../img/landing/bi-hero-fake.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .img-responsive {
     display:inline-block;
 }
 
-.jumbotron {
-    background:none;
-    height:100%;
-    margin-bottom:0;
+.hero {
+    position:relative;
 }
 
-    .jumbotron .words {
+    .hero .background {
+        width:100%;
+        position:relative;
+        left:0;
+        top:0;
+    }
+
+    .hero .words {
         position: absolute;
         left: 0;
         bottom: 0;
         padding: 10px 0 0;
-        width:440px;
-        text-align:right;
+        text-align:left;
     }
 
-    .jumbotron .words .top {
+    .hero .words .top {
         font-size: 5em;
         color: white;
         width:inherit;
@@ -33,16 +31,16 @@ body {
         line-height: 80%;
     }
 
-    .jumbotron .words .bottom {
-        font-size: 10em;
-        color: gold;
+    .hero .words .bottom {
+        font-size: 8em;
+        color: #073c63;
         text-align: inherit;
         width:inherit;
         line-height: 80%;
     }
 
-    .jumbotron .words .description {
-        background: #444;
+    .hero .words .description {
+        background: rgba(40,40,40,.85);
         padding:20px;
         color: white;
         text-align: inherit;
@@ -52,9 +50,30 @@ body {
 .divider {
     background: #444;
     content:"";
-    height:60px;
+    height:10px;
     width:100%;
 }
+
+.browse-link {
+    border: 1px solid #444444;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.tag {
+    padding: 20px;
+    border: 1px solid #444;
+    font-size:12px;
+    display:inline-block;
+    margin:10px;
+    cursor:pointer;
+}
+
+.tag-selected {
+    background:#073c63;
+    color:white;
+}
+
 
 .landing-page .navbar-default .navbar-brand:hover,.landing-page .navbar-default .navbar-brand:focus{
     background: #000000;
@@ -86,7 +105,7 @@ body {
 
 section.separated:after{
     content:"";
-    height:60px;
+    height:20px;
     width:100%;
     background: #444;
     display:block;
@@ -103,29 +122,77 @@ section.separated:after{
 .landing-page section p.quote, p.quote {
     color: #aeaeae;
     font-size: 1.5em;
+    font-weight:200;
+}
+
+.social-icon {
+    padding:20px;
+}
+
+#our_mission {
+    padding-top: 40px;
+}
+
+.flex-gallery {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+@media(min-width:768px){
+    .hero .words {
+        max-width: 60%;
+    }
 }
 
 @media (min-width: 992px){
 
-    .jumbotron .words {
-        width:820px;
+    .hero .words {
+        width:880px;
+        text-align:right;
     }
 
-        .jumbotron .words .top {
+        .hero .words .top {
             font-size: 10em;
         }
 
-        .jumbotron .words .bottom {
+        .hero .words .bottom {
             font-size: 15em;
         }
 
-}
-
-@media (max-width: 768px){
-
-    .jumbotron .words {
-        width:100%;
-        text-align:center;
+    .landing-page .carousel-inner > .item {
+        background:#f4f4f4;
     }
 
+    .landing-page .carousel-inner > .item > img {
+        width:600px;
+        height:470px;
+        min-width:600px;
+        max-width:600px;
+        display:inline-block;
+        position:relative;
+        float:left;
+    }
+
+    .landing-page .carousel-inner > .item > .description {
+        display:inline-block;
+        background-color:#f4f4f4;
+        width:500px;
+        padding:20px 20px 20px 40px;
+
+    }
+
+}
+
+@media (min-width: 1200px){
+    .flex-child {
+        margin:10px;
+    }
+
+    .flex-thumbnail {
+        height:200px;
+    }
 }
