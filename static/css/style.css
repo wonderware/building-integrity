@@ -8059,7 +8059,7 @@ body.landing-page {
 }
 
 .landing-page .carousel {
-    height: 470px;
+    height: 500px;
 }
 
 .landing-page .carousel-caption {
@@ -8067,8 +8067,7 @@ body.landing-page {
 }
 
 .landing-page .carousel .item {
-    height: 470px;
-    background-color: #777;
+    height: 500px;
 }
 
 .landing-page .carousel-inner > .item > img {
@@ -8455,6 +8454,12 @@ body.landing-page {
     .landing-page .featurette-heading {
         font-size: 50px;
     }
+
+    .landing-page .carousel {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 992px) {
